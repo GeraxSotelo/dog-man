@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Dog Man</title>
+</head>
+
+<body>
+
+  <header class="container-fluid"></header>
+
+  <main class="container-fluid">
+    <div class="row pt-3">
+      <div class="col-12 col-md-6">
+        <img id="dog-img" class="mw-100"
+          src="https://www.zastavki.com/pictures/640x480/2013Animals___Dogs_Sad_pitbull_044169_29.jpg" alt="">
+        <!-- https://bullymake.com/wp-content/uploads/2015/08/happy-pit.jpg -->
+      </div>
+      <div class="col-12 col-md-6">
+        <h1>Name: <span id="dog-name"></span></h1>
+        <h1>Mood: <span id="dog-mood"></span></h1>
+        <h1>Pets: <span id="dog-pets"></span></h1>
+        <button class="btn btn-success d-block mt-2" onclick="updatePet()">Pet</button>
+        <button class="btn btn-primary d-block mt-2">Walk Away</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container-fluid"></footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
